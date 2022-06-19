@@ -1,6 +1,6 @@
 ---
 - name: Install Clickhouse
-  hosts: all
+  hosts: clickhouse
   handlers:
     - name: Start clickhouse service
       become: true
